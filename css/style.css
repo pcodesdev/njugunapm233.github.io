@@ -373,7 +373,8 @@ text-orientation: sideways;
 
 --------------------
 html { font-size: 22px; }
-body { padding: 1rem; }
+body { padding: 1rem;
+background-image: url('Take a Survey.svg'); }
 
 .card {
   background-color: rgb(122, 245, 122);
