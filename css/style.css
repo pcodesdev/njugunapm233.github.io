@@ -335,7 +335,8 @@
 
 footer.footer-area {
     padding: 5rem 0;
-    background: url(../img/footer-bg.png) no-repeat;
+    /* background: url(../img/footer.jpeg) repeat; */
+    background-image: linear-gradient(to right top, #e01f8c, #e64354, #d06c2e, #ad8b2a, #88a04c, #79ad67, #6bb984, #61c3a2, #61d1b4, #60dfc8, #60eddc, #5ffbf1);;
 }
 
 footer.footer-area .social h5 {
@@ -345,7 +346,7 @@ footer.footer-area .social h5 {
 footer.footer-area .social a>i {
     font-size: 22px;
     padding: 2rem;
-    color: var(--border-color);
+    /* color: var(--border-color); */
 }
 
 footer.footer-area .social a:hover>i {
@@ -374,13 +375,29 @@ text-orientation: sideways;
 --------------------
 html { font-size: 22px; }
 body { padding: 1rem;
-background-image: url('Take a Survey.svg'); }
+/* background-image: url('Take a Survey.svg'); */
+background-image: radial-gradient(circle, #252124, #201d20, #1c191b, #171517, #121112, #202021, #2d2e30, #3b3e40, #61686a, #8a9694, #bac5be, #f1f6e8);
+/* background-repeat: no-repeat;  */
+}
+
+
+.header_area {
+background-image: linear-gradient(to right top, #053735, #006155, #008d6d, #00bc7d, #12eb83);
+}
+
 
 .card {
-  background-color: rgb(122, 245, 122);
+ /* background-image: linear-gradient(to right top, #29302c, #545c55, #838c82, #b7bfb1, #eff4e3); */
   color: white;
   padding: 1rem;
   height: 6rem;
+}
+
+.card-- {
+  /* background-color: rgb(177, 64, 64); */
+  color: rgb(4, 7, 5);
+  padding: 0.5rem;
+  height: auto;
 }
 
 .cards {
@@ -388,6 +405,24 @@ background-image: url('Take a Survey.svg'); }
   margin: 2px 0px;
   display: grid;
   grid-gap: 1rem;
+}
+
+.card-heading{
+    background: #121FCF;
+background: -webkit-linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+background: -moz-linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.card--text{
+    background: #CF8B4F;
+background: -webkit-linear-gradient(to right, #CF8B4F 0%, #792BFF 100%, #CF1512 100%);
+background: -moz-linear-gradient(to right, #CF8B4F 0%, #792BFF 100%, #CF1512 100%);
+background: linear-gradient(to right, #CF8B4F 0%, #792BFF 100%, #CF1512 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 /* Screen larger than 600px? 2 column */
