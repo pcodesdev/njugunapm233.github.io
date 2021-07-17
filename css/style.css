@@ -445,7 +445,9 @@ background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
     text-shadow: 0px 0px 0px rgba(0, 0, 0, 1);
 }
 
-
+.container-height{
+    height: 500px;
+}
 .card--text{
     background: #CF8B4F;
 background: -webkit-linear-gradient(to right, #CF8B4F 0%, #792BFF 100%, #CF1512 100%);
