@@ -28,14 +28,26 @@
 }
 
 .header_area .main-menu .navbar-nav .active a {
-    background: var(--gradient-color);
+    /* background: var(--gradient-color); */
+   background: #0D081C;
+background: -webkit-linear-gradient(to right, #0D081C 100%, #CF3CA8 0%);
+background: -moz-linear-gradient(to right, #0D081C 100%, #CF3CA8 0%);
+background: linear-gradient(to right, #0D081C 100%, #CF3CA8 0%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 .header_area .main-menu .navbar-nav a:hover {
-    background: var(--gradient-color);
+    /* background: var(--gradient-color); */
+    background: #1C130B;
+background: -webkit-linear-gradient(to right, #1C130B 64%, #1A0930 100%);
+background: -moz-linear-gradient(to right, #1C130B 64%, #1A0930 100%);
+background: linear-gradient(to right, #1C130B 64%, #1A0930 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -351,6 +363,10 @@ footer.footer-area .social a>i {
 
 footer.footer-area .social a:hover>i {
     color: var(--primary-color);
+}
+
+.nav-color{
+   background-image: linear-gradient(to right top, #0d0c0d, #20191b, #322524, #413229, #4a4330, #4a4a33, #485239, #445941, #3f573f, #3a553e, #35533c, #2f513b);
 }
 
 
