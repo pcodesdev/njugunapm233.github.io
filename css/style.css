@@ -432,6 +432,20 @@ background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
 -webkit-text-fill-color: transparent;
 }
 
+.description{
+    font-family: Antic, sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 1);
+    text-transform: none;
+    font-style: italic;
+    text-decoration: underline;
+    line-height: 2em;
+    letter-spacing: 0px;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 1);
+}
+
+
 .card--text{
     background: #CF8B4F;
 background: -webkit-linear-gradient(to right, #CF8B4F 0%, #792BFF 100%, #CF1512 100%);
