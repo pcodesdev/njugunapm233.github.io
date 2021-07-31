@@ -12,6 +12,13 @@
 
 /* start navigation */
 
+* {
+  box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
 .header_area .main-menu .navbar .navbar-brand {
     padding: 0 2rem 0 5rem;
 }
@@ -232,7 +239,7 @@ background: linear-gradient(to right, #1C130B 64%, #1A0930 100%);
 /* Project Area */
 
 .site-main .project-area {
-    padding: 3rem 0;
+    padding: 1rem 0;
 }
 
 .site-main .project-area .button-group button {
@@ -466,3 +473,7 @@ background: linear-gradient(to right, #CF8B4F 0%, #792BFF 100%, #CF1512 100%);
 @media (min-width: 900px) {
   .cards { grid-template-columns: repeat(3, 1fr); }
 }
+
+/* Project Imgs */
+
+/* //////////////////////////////////////////////////// */
