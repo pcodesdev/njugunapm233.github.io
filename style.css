@@ -205,7 +205,7 @@ html {
   position: relative;
   text-align: center;
   top: 10%;
-  left: 40%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 .center h1 {
@@ -306,7 +306,7 @@ html {
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   /* display: flex; */
-  font-size: 40px;
+  font-size: 30px;
 }
 
 @keyframes textclip {
