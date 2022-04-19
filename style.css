@@ -205,9 +205,9 @@ html {
 }
 .center h1 {
   color: rgba(255, 0, 0, 0.1);
-  font-size: 50px;
+  font-size: 40px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 400;
   background-size: cover;
   background-image: url(https://cdn-images-1.medium.com/max/2000/1*Jalb56N34pBIGCjQULtW3A.jpeg);
   -webkit-background-clip: text;
