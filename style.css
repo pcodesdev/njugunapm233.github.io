@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  box-sizing: border-box;
-  padding: 2px;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -212,7 +207,7 @@ html {
   color: rgba(255, 0, 0, 0.1);
   font-size: 40px;
   text-transform: uppercase;
-  font-weight: 450;
+  font-weight: 400;
   background-size: cover;
   background-image: url(https://cdn-images-1.medium.com/max/2000/1*Jalb56N34pBIGCjQULtW3A.jpeg);
   -webkit-background-clip: text;
@@ -306,7 +301,7 @@ html {
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   /* display: flex; */
-  font-size: 30px;
+  font-size: 50px;
 }
 
 @keyframes textclip {
