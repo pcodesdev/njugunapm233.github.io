@@ -363,14 +363,14 @@ html {
 }
 
 .box .inner:first-child {
-  background-color: #0F4E71;
-  color: darkred;
+  background-color: antiquewhite;
+  color: #141213;
   transform-origin: right;
   transform: perspective(100px) rotateY(-15deg);
 }
 
 .box .inner:last-child {
-  background-color: #D16BA5;
+  background-color: #141213;
   color: antiquewhite;
   transform-origin: left;
   transform: perspective(100px) rotateY(15deg);
