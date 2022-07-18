@@ -15,11 +15,11 @@ html {
 
 /* hero background image */
 .bgimage {
-  height: 100vh;
+  /* height: 100vh;
   background: url("images/bn0.webp");
   /* background: url("images/HiroImage.jpg"); */
-  background-size: cover;
-  position: relative;
+  /* background-size: cover;
+  position: relative;  */
 }
 
 #particles-js{
@@ -42,6 +42,33 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+/* Text */
+.text {
+  position: absolute;
+  top: 50%; 
+  right: 50%;
+  transform: translate(50%,-50%);
+  text-transform: uppercase;
+  font-family: verdana;
+  font-size: 12em;
+  font-weight: 700;
+  color: #f5f5f5;
+  text-shadow: 1px 1px 1px #919191,
+      1px 2px 1px #919191,
+      1px 3px 1px #919191,
+      1px 4px 1px #919191,
+      1px 5px 1px #919191,
+      1px 6px 1px #919191,
+      1px 7px 1px #919191,
+      1px 8px 1px #919191,
+      1px 9px 1px #919191,
+      1px 10px 1px #919191,
+  1px 18px 6px rgba(16,16,16,0.4),
+  1px 22px 10px rgba(16,16,16,0.2),
+  1px 25px 35px rgba(16,16,16,0.2),
+  1px 30px 60px rgba(16,16,16,0.4);
 }
 
 /* spacing on all sections */
@@ -300,7 +327,7 @@ html {
   );
   background-size: auto auto;
   background-clip: border-box;
-  background-size: 200% auto;
+  background-size: 100% auto;
   color: #fff;
   background-clip: text;
   text-fill-color: transparent;
@@ -308,7 +335,7 @@ html {
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   /* display: flex; */
-  font-size: 50px;
+  font-size: 30px;
 }
 
 @keyframes textclip {
@@ -381,10 +408,31 @@ html {
   -webkit-text-fill-color: transparent;
 }
 
-footer.footer-area {
+.container_footer{
+  width: 100%;
+  height: 100%;  
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  animation: changeBackgroundColor 7s infinite;
+}
+
+@keyframes changeBackgroundColor {
+  0% {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  }
+  50% {
+    background-image: linear-gradient(to right top, #370528, #82112a, #b15000, #a89e00, #12eb1a);
+  }
+  100% {
+    background-image: linear-gradient(to right top, #370515, #581f43, #69427b, #616bb6, #1298eb);
+  }
+}
+
+/* footer.footer-area {
   padding: 3rem 0;
   /* background: url(../img/footer.jpeg) repeat; */
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to right top,
     #e01f8c,
     #e64354,
@@ -398,8 +446,8 @@ footer.footer-area {
     #60dfc8,
     #60eddc,
     #5ffbf1
-  );
-}
+  ); */
+/* }  */
 
 footer.footer-area .social h5 {
   font: normal 300 23px/ 30px var(--roboto);
